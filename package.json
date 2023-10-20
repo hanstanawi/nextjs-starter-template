@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.x || >= 18.x"
+    "node": ">= 18.x"
   },
   "description": "Next.js 13 starter template",
   "keywords": [
@@ -29,6 +29,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "lint:types": "tsc --noEmit",
     "format": "prettier --write \"./src/**/*.{ts,tsx}\"",
     "test": "jest",
     "test:ci": "jest --ci",
@@ -38,7 +40,8 @@
     "clsx": "^2.0.0",
     "next": "^13.5.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
