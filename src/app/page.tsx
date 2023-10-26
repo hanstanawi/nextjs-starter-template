@@ -1,6 +1,21 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Button from '@/components/ui/button';
+import {
+  Atom,
+  Bot,
+  Dog,
+  FlaskConical,
+  Github,
+  HardHat,
+  ServerCog,
+  ShieldCheck,
+  Smile,
+  Wand2,
+  Wind,
+  Workflow,
+  Zap,
+} from 'lucide-react';
 
 export default function Home() {
   return (
@@ -15,26 +30,104 @@ export default function Home() {
             height={37}
             priority
           />
-          <h1 className="mt-8 text-center text-4xl font-extrabold">
+          <h1 className="mt-8 text-center text-4xl font-bold">
             Starter Template
           </h1>
           <p className="mt-4 text-center text-base opacity-60 dark:opacity-80">
             A starter template to kickstart your Next.js project
           </p>
-          <p className="mt-8 text-start text-xl font-semibold">
+          <p className="mt-6 text-start text-xl font-semibold">
             What&apos; inside?
           </p>
           <ul className="mb-6 mt-4 list-disc text-black opacity-50 dark:text-white dark:opacity-80">
-            <li>Next.js 13 with app dir</li>
-            <li>React</li>
-            <li>TailwindCSS</li>
-            <li>TypeScript</li>
-            <li>ESLint</li>
-            <li>Prettier</li>
-            <li>Husky</li>
-            <li>Github Actions</li>
-            <li>Dependabot</li>
-            <li>Jest + React Testing Library</li>
+            <li>
+              <Zap
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Next.js 13 with app dir
+            </li>
+            <li>
+              <Atom
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              React
+            </li>
+            <li>
+              <Wind
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              TailwindCSS
+            </li>
+            <li>
+              <HardHat
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              TypeScript
+            </li>
+            <li>
+              <ShieldCheck
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              ESLint
+            </li>
+            <li>
+              <Wand2
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Prettier
+            </li>
+            <li>
+              <Dog
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Husky
+            </li>
+            <li>
+              <Smile
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Lucide Icons
+            </li>
+            <li>
+              <Workflow
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Github Actions
+            </li>
+            <li>
+              <Bot
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Dependabot
+            </li>
+            <li>
+              <FlaskConical
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-black dark:text-white"
+              />
+              Jest + React Testing Library
+            </li>
           </ul>
           <Button>
             <Link
@@ -42,6 +135,11 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
+              <Github
+                size={20}
+                strokeWidth={2}
+                className="mr-1 inline-block text-white"
+              />
               Learn more
             </Link>
           </Button>
