@@ -12,12 +12,13 @@ This starter template includes:
 - [pnpm](https://pnpm.io/) - Fast and efficient package manager
 - [TailwindCSS](https://tailwindcss.com/) - Utility first CSS
 - [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) - Find & fix problems in the codebase and format code automatically on save
-- [Husky](https://typicode.github.io/husky/) - git hooks tool
+- [Lucide React](https://lucide.dev/) - Beautiful and consistent open-source icons for React
+- [Husky](https://typicode.github.io/husky/) - Git hooks tool
   - [Commit Lint](https://commitlint.js.org/#/) - Force devs to follow conventional commit message
   - [Lint Staged](https://github.com/lint-staged/lint-staged) - Format & lint your code before committing, block commit if issues are detected
-- [Github Actions](https://docs.github.com/en/actions) - check, test, and build your code automatically on push and PR
+- [Github Actions](https://docs.github.com/en/actions) - Check, test, and build your code automatically on push and PR
 - [Dependabot](https://github.com/dependabot) - Create pull-request to update your dependencies
-- [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - unit test your components
+- [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - Unit test your components
 
 ### Getting Started
 
@@ -131,6 +132,19 @@ This docs guides you a quick start to setup Chakra UI on this project. To learn 
    ```
 
 4. You can start using Chakra UI components in the project.
+
+## Icons
+
+This starter template uses Lucide React icons as the default icons library. You can switch to other React icons library such as [React Icons](https://react-icons.github.io/react-icons/) or [FontAwesome Icons](https://fontawesome.com/v5/docs/web/use-with/react)
+
+1. Simply uninstall Lucide
+   ```bash
+   pnpm remove lucide-react
+   ```
+2. Install other icon library e.g. [React Icons](https://react-icons.github.io/react-icons/)
+   ```bash
+   pnpm add react-icons
+   ```
 
 ## Learn More
 
