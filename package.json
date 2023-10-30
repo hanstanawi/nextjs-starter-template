@@ -1,7 +1,6 @@
 {
   "name": "nextjs-starter-template",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "engines": {
     "node": ">= 18.x"
   },
@@ -20,7 +19,7 @@
     "url": "https://github.com/hanstanawi/nextjs-starter-template/issues",
     "email": "hans.tanawi@outlook.com"
   },
-  "repository": "github:hanstanawi/hanstanawi.com",
+  "repository": "github:hanstanawi/nextjs-starter-template",
   "license": "MIT",
   "author": "Hans Tanawi <hans.tanawi@outlook.com>",
   "scripts": {
@@ -32,9 +31,11 @@
     "lint:fix": "next lint --fix",
     "lint:types": "tsc --noEmit",
     "format": "prettier --write \"./src/**/*.{ts,tsx}\"",
+    "format:check": "prettier --check \"./src/**/*.{ts,tsx}\"",
     "test": "jest",
     "test:ci": "jest --ci",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
   },
   "dependencies": {
     "clsx": "^2.0.0",
