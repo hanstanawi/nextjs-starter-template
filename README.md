@@ -88,6 +88,7 @@ This docs guides you a quick start to setup Chakra UI on this project. To learn 
    pnpm add @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-motion
    ```
 2. Setup `Chakra` Provider
+
    Next.js v13 uses server components by default. However, Chakra only works on client components. We need to create a provider client component that consists of React providers and add `use client` at the top of the file.
 
    - Create `providers.tsx` file in `app` directory
