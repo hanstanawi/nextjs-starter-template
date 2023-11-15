@@ -50,7 +50,7 @@ This starter template includes:
 
    You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Switching CSS Frameworks / UI Library
+### Switching CSS Frameworks / UI Library
 
 "What if I don't want to use Tailwind?"
 
@@ -134,7 +134,7 @@ This docs guides you a quick start to setup Chakra UI on this project. To learn 
 
 4. You can start using Chakra UI components in the project.
 
-## Icons
+### Icons
 
 This starter template uses Lucide React icons as the default icons library. You can switch to other React icons library such as [React Icons](https://react-icons.github.io/react-icons/) or [FontAwesome Icons](https://fontawesome.com/v5/docs/web/use-with/react)
 
@@ -147,7 +147,7 @@ This starter template uses Lucide React icons as the default icons library. You 
    pnpm add react-icons
    ```
 
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
