@@ -3,6 +3,7 @@
     "next/core-web-vitals",
     "plugin:testing-library/react",
     "plugin:jest-dom/recommended",
+    "plugin:storybook/recommended",
     "prettier"
   ],
   "plugins": ["simple-import-sort", "prettier"],
