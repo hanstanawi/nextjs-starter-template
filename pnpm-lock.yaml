@@ -73,8 +73,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@8.57.1)
       eslint-plugin-jest-dom:
-        specifier: ^5.4.0
-        version: 5.4.0(@testing-library/dom@10.0.0)(eslint@8.57.1)
+        specifier: ^5.5.0
+        version: 5.5.0(@testing-library/dom@10.0.0)(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: ^5.2.1
         version: 5.2.1(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.3.3)
@@ -283,10 +283,6 @@ packages:
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
-
-  '@babel/runtime@7.23.9':
-    resolution: {integrity: sha512-0CX6F+BI2s9dkUqr08KFrAIZgNFj75rdBU/DjCyYLIaV/quFjkk6T+EJ2LkZHyZTbEV4L5p97mNkUsHl2wLFAw==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.24.4':
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
@@ -1610,8 +1606,8 @@ packages:
       '@typescript-eslint/parser':
         optional: true
 
-  eslint-plugin-jest-dom@5.4.0:
-    resolution: {integrity: sha512-yBqvFsnpS5Sybjoq61cJiUsenRkC9K32hYQBFS9doBR7nbQZZ5FyO+X7MlmfM1C48Ejx/qTuOCgukDUNyzKZ7A==}
+  eslint-plugin-jest-dom@5.5.0:
+    resolution: {integrity: sha512-CRlXfchTr7EgC3tDI7MGHY6QjdJU5Vv2RPaeeGtkXUHnKZf04kgzMPIJUXt4qKCvYWVVIEo9ut9Oq1vgXAykEA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6', yarn: '>=1'}
     peerDependencies:
       '@testing-library/dom': ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -3733,10 +3729,6 @@ snapshots:
       '@babel/core': 7.23.2
       '@babel/helper-plugin-utils': 7.22.5
 
-  '@babel/runtime@7.23.9':
-    dependencies:
-      regenerator-runtime: 0.14.0
-
   '@babel/runtime@7.24.4':
     dependencies:
       regenerator-runtime: 0.14.0
@@ -5323,9 +5315,9 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-jest-dom@5.4.0(@testing-library/dom@10.0.0)(eslint@8.57.1):
+  eslint-plugin-jest-dom@5.5.0(@testing-library/dom@10.0.0)(eslint@8.57.1):
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.4
       eslint: 8.57.1
       requireindex: 1.2.0
     optionalDependencies:
